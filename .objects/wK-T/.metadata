@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome 의약품안전나라  고시공고알림  안전성정보  행정처분정보",
+  "Type": "App",
+  "Id": "wK-TwOt9JUSaAif5LCT5XA",
+  "Reference": "eizJo09WTkiSWwBycbfa8g/wK-TwOt9JUSaAif5LCT5XA",
+  "Created": "2024-11-18T03:28:36.5663655Z",
+  "Updated": "2024-11-18T03:28:36.5663655Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

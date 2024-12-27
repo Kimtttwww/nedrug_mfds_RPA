@@ -1,0 +1,244 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_Issue&StateMachine_1",
+        "dt_NowIssue&StateMachine_1",
+        "dt_BeforeIssue&StateMachine_1",
+        "remote_ResultFIle&StateMachine_1",
+        "str_BaseURL&StateMachine_1",
+        "list_SearchingDate&StateMachine_1",
+        "list_FilterTarget&StateMachine_1",
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_list_SearchingDate",
+        "in_Config",
+        "in_str_BaseURL",
+        "out_remote_ResultFIle"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Tasks/01_GetDataFromMail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_MailBody&Sequence_1",
+        "arr_SplittedMailBody&Sequence_1",
+        "list_MailMassages&TryCatch_1",
+        "list_GmailMessages&TryCatch_1",
+        "strUserId&Sequence_2",
+        "strUserPw&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "out_list_SearchingDate",
+        "out_list_FilterTarget"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/SetTransactionStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "QueueRetry&Sequence_17",
+        "ScreenshotPath&Sequence_17"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_BusinessException",
+        "in_TransactionField1",
+        "in_TransactionField2",
+        "in_TransactionID",
+        "in_SystemException",
+        "in_Config",
+        "in_TransactionItem",
+        "io_RetryNumber",
+        "io_TransactionNumber",
+        "io_ConsecutiveSystemExceptions"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "io_dt_Issue",
+        "io_dt_BeforeIssue",
+        "io_dt_NowIssue",
+        "in_list_FilterTarget",
+        "in_list_SearchingDate",
+        "in_str_BaseURL",
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Tasks/02_ExtractTableFromWeb.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_list_SearchingDate",
+        "out_dt_Issue",
+        "out_dt_NowIssue",
+        "out_dt_BeforeIssue",
+        "in_str_BaseURL",
+        "out_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Tasks/03_MoreExtractData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_위반내역&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_list_SearchingDate",
+        "in_TransactionItem",
+        "in_str_BaseURL"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Tasks/04_FilteringData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "arr_RowsData&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_dt_Issue",
+        "io_dt_BeforeIssue",
+        "io_dt_NowIssue",
+        "in_TransactionItem",
+        "in_list_FilterTarget"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Tasks/05_SaveResult.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "local_ResultFile&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "in_remote_ResultFIle",
+        "in_dt_TranscationData",
+        "in_dt_BeforeIssue",
+        "in_dt_NowIssue",
+        "in_dt_Issue"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Tasks/06_SendResult.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_MailTable&Sequence_1",
+        "str_MailRow&Sequence_1",
+        "str_UserId&Sequence_2",
+        "str_UserPw&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_dt_SortedBeforeIssue",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/CloseAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_list_SearchingDate",
+        "in_str_BaseURL"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

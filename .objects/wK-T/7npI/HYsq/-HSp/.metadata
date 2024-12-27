@@ -1,0 +1,13 @@
+﻿{
+  "Name": "임상시험용의약품의 추가 표시사항 부착 작업…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "-HSp2lqadkyxskcUzkSwww",
+  "Reference": "eizJo09WTkiSWwBycbfa8g/-HSp2lqadkyxskcUzkSwww",
+  "ParentRef": "eizJo09WTkiSWwBycbfa8g/HYsqr_rM4k66JbScnaLpug",
+  "Created": "2024-11-19T02:25:32.4535744Z",
+  "Updated": "2024-11-19T02:25:32.4535744Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
